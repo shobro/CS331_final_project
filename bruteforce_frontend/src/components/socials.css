@@ -1,0 +1,30 @@
+.main-social
+{
+    border-top: 1px solid rgb(179, 175, 175);
+    width: 90%;
+    margin: 0 auto;
+    margin-top: 17px;
+    font-size: 14px;
+    padding-top: 10px;
+    display: flex;
+    flex-direction: column;
+}
+
+.main-social a{
+    color: #9e9e9e;
+    transition: all .2s ease-in-out;
+}
+
+.main-social a:hover
+{
+    color: black;
+}
+
+.main-social a:hover #child-icon-linkedin
+{
+    color: #0a66c2;
+}
+.main-social a:hover #child-icon-twitter
+{
+    color: #1d9bf0;
+}
